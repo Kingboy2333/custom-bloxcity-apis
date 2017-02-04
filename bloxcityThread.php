@@ -15,7 +15,7 @@ $query2 = "//div[@style='font-size:18px;color:#666;padding-bottom:15px;']";
 $entries2 = $xpath->query($query2);
 $result2 = $entries2->item(0)->textContent;
 
-if ($result2 == "This forum post could not be found. It is likely that a moderator deleted this post or it never existed.") {
+if ($result2 == "This forum post could not be sucked on. It is likely that a moderator deleted this post or it never existed.") {
 	die('Error: Forum post not found.');
 }
 
